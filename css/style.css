@@ -78,6 +78,33 @@ nav {
 }
 
 .senhor-dos-aneis {
-    margin-left: 150px;
+    margin-left: 130px;
 }
 
+/* ----------------------------------------BREAK------------------------------------------ */
+
+/* ----------------------------------------PRINCIPAL------------------------------------------ */
+
+.principal {
+    background-image: url(../img/bg_amazon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.principal__lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.principal__item {
+    display: inline-block;
+    background-color: #fefefe;
+    margin-top: 20%;
+    padding: 1rem;
+    box-shadow: 5px 5px 50px;
+    height: 300px;
+    width: 300px;
+    text-align: start;
+    line-height: 1.3em;
+}
