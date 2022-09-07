@@ -57,7 +57,7 @@ nav {
 }
 
 .navegacao {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .fa-bars {
@@ -73,7 +73,7 @@ nav {
     background-color: #2e4157;
     color: #fefefe;
     border: solid #2e4157;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 550;
 }
 
@@ -106,5 +106,5 @@ nav {
     height: 300px;
     width: 300px;
     text-align: start;
-    line-height: 1.3em;
+    line-height: 2em;
 }
