@@ -103,8 +103,17 @@ nav {
     margin-top: 20%;
     padding: 1rem;
     box-shadow: 5px 5px 50px;
-    height: 300px;
     width: 300px;
     text-align: start;
     line-height: 2em;
+}
+
+.principal__item-titulo {
+    margin-bottom: 10px;
+}
+
+.principal__item-foto {
+    height: 120px;
+    margin: 6px;
+    border: .5px solid;
 }
