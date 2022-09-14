@@ -124,18 +124,18 @@ nav {
     margin: auto;
 }
 
-.destaque > .main {
+.destaque {
+    display: flex;
+    justify-content: space-between;
+}
+
+li > .main {
     width: 100%;
     margin: auto;
 }
 
 .destaque > .sec {
     height: 70px;    
-}
-
-.destaque > .middle {
-    margin-left: 13px;
-    margin-right: 13px;  
 }
 
 .destaque > p {
