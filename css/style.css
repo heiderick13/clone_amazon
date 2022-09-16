@@ -102,7 +102,7 @@ nav {
     background-color: #fefefe;
     margin-top: 20%;
     padding: 1rem;
-    box-shadow: 5px 5px 50px;
+    box-shadow: 2px 2px 50px;
     width: 300px;
     text-align: start;
     line-height: 2em;
@@ -143,6 +143,32 @@ li > .main {
 }
 
 .internacionais > .main {
+    width: 100%;
+    margin: auto;
+}
+
+/* ------------------------------------BREAK------------------------------------ */
+
+/* ------------------------------------SECUNDARIA------------------------------------ */
+
+.secundaria__lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secundaria__item {
+    display: inline-block;
+    background-color: #fefefe;
+    margin-top: 60px;
+    padding: 1rem;
+    box-shadow: 2px 2px 50px;
+    width: 300px;
+    text-align: start;
+    line-height: 2em;
+}
+
+.produto > .principal__item-foto {
+    height: auto;
     width: 100%;
     margin: auto;
 }
