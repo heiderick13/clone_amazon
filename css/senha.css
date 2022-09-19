@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    width: 350px;
+    margin: auto auto 2rem;
+}
+
+.login__logo {
+    margin: 15px 0 15px;
+}
+
+.login__card {
+    border: solid .5px rgb(219, 214, 214);
+    border-radius: 3px;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.login__titulo {
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.email {
+    display: flex;
+}
+
+.login__email {
+    font-size: 11pt;
+    margin-right: 10px;
+}
+
+.alterar a {
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.login__senha {
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+.login__senha-esqueci>a {
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.txt {
+    width: 100%;
+    padding: .5rem;
+    border: solid .5px rgb(155, 150, 150);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #f0c14b;
+    width: 100%;
+    padding: .5rem;
+    border: solid .5px rgb(155, 150, 150);
+    border-radius: 3px;
+    border-color: #a88734 #9c7e31 #846a29;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ebb42c;
+}
+
+.manter-conectado {
+    display: flex;
+    font-size: 10pt;
+    align-items: flex-start;
+}
+
+.manter-conectado>input,
+p,
+a {
+    margin-right: 10px;
+    padding-bottom: 1rem;
+}
+
+
+/* ---------------------------------------------------------FOOTER------- */
+
+.novo-usuario {
+    width: 350px;
+    margin: auto;
+    padding: 2rem 0 2rem;
+}
+
+.novo-usuario>p {
+    font-size: 10pt;
+    color: #6b6969;
+    padding-bottom: .5rem;
+}
+
+.btn-novo-usuario {
+    width: 100%;
+    padding: .5rem;
+    border-radius: 3px;
+    border: solid .5px rgb(155, 150, 150);
+    ;
+}
+
+footer {
+    background: linear-gradient(to bottom, #f5f2f2, #fff);
+    padding: 1rem;
+}
+
+.links__item {
+    list-style: none;
+    display: inline-block;
+    font-size: 9pt;
+    padding-bottom: 1rem;
+}
+
+.links__item>a {
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 8pt;
+}

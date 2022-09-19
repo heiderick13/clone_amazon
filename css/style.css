@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
@@ -12,7 +12,7 @@ header {
     padding: .3rem 0;
 }
 
-.pesquisa > select {
+.pesquisa>select {
     padding: .7em;
     border-radius: 5px 0 0 5px;
     background-color: #DADADA;
@@ -33,7 +33,12 @@ header {
     border-radius: 0 5px 5px 0;
 }
 
-.login__select-custom > select {
+.login__link {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.login__select-custom>select {
     border: none;
     background-color: #232F3E;
     color: #fefefe;
@@ -68,7 +73,7 @@ nav {
     margin-left: -5px;
 }
 
-.prime > select {
+.prime>select {
     outline: none;
     background-color: #2e4157;
     color: #fefefe;
@@ -118,7 +123,7 @@ nav {
     border: .5px solid;
 }
 
-.oferta > .principal__item-foto {
+.oferta>.principal__item-foto {
     height: auto;
     width: 100%;
     margin: auto;
@@ -129,20 +134,20 @@ nav {
     justify-content: space-between;
 }
 
-li > .main {
+li>.main {
     width: 100%;
     margin: auto;
 }
 
-.destaque > .sec {
-    height: 70px;    
+.destaque>.sec {
+    height: 70px;
 }
 
-.destaque > p {
+.destaque>p {
     margin-bottom: 15px;
 }
 
-.internacionais > .main {
+.internacionais>.main {
     width: 100%;
     margin: auto;
 }
@@ -167,7 +172,7 @@ li > .main {
     line-height: 2em;
 }
 
-.produto > .principal__item-foto {
+.produto>.principal__item-foto {
     height: auto;
     width: 100%;
     margin: auto;
