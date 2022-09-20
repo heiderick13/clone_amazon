@@ -81,17 +81,20 @@ body {
 }
 
 .usuario__linha {
-    height: 5px;
-    background: #6b6969;
     position: absolute;
-    margin-top: 50%;
-    z-index: 1;
+    height: 1px;
+    background-color: #8b8b8bd7;
+    width: 100%;
+    top: 32%;
+    z-index: -1;
 }
 
 .novo-usuario>p {
+    display: inline-block;
+    background: #fefe;
     font-size: 10pt;
     color: #6b6969;
-    padding-bottom: .5rem;
+    padding: 0 .5rem .5rem;
 }
 
 .btn-novo-usuario {
