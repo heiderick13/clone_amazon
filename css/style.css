@@ -12,25 +12,35 @@ header {
     padding: .3rem 0;
 }
 
+.pesquisa {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
 .pesquisa>select {
     padding: .7em;
-    border-radius: 5px 0 0 5px;
     background-color: #DADADA;
     margin-right: -6px;
+    height: 100%;
 }
 
 .pesquisa__barra {
     outline: none;
-    padding: .7em;
     width: 500px;
+    height: 100%;
 }
 
 .lupa {
     font-size: 16px;
     background-color: #F3A847;
+    height: 100%;
+    display: flex;
+    align-items: center;
     padding: .7em .7em .8rem;
     margin-left: -5px;
-    border-radius: 0 5px 5px 0;
 }
 
 .login__link {
@@ -51,6 +61,40 @@ header {
 
 .fa-magnifying-glass {
     color: #131921;
+}
+
+.carrinho {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.carrinho__img {
+    height: 28px;
+    position: absolute;
+    left: -30px;
+}
+
+.numero-carrinho {
+    position: relative
+}
+
+.numero-carrinho>p {
+    position: absolute;
+    color: #F08804;
+    font-size: 16pt;
+    right: 70px;
+    bottom: -5px;
+}
+
+.texto-carrinho {
+    position: relative;
+}
+
+.texto-carrinho>p {
+    position: absolute;
+    font-weight: 800;
+    left: -26px;
 }
 
 nav {
@@ -92,7 +136,7 @@ nav {
 
 .principal {
     background-image: url(../img/bg_amazon.jpg);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     height: 90vh;
 }

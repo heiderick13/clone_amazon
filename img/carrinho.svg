@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg9"
+   width="1366"
+   height="768"
+   viewBox="0 0 1366 768"
+   sodipodi:docname="carrinho.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.21534145"
+     inkscape:cx="1205.8404"
+     inkscape:cy="604.51488"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g15" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g15">
+    <g
+       id="g1387"
+       transform="matrix(1.1040846,0,0,1.1040846,-69.822705,-5.0331767)"
+       style="stroke-width:0.905728">
+      <path
+         style="fill:#ffffff;stroke:none;stroke-width:0.905727px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 168.46332,48.356573 c 75.99142,0.262293 227.89819,0.695076 227.89819,0.695076 122.43296,263.146651 195.45523,394.414671 195.45523,394.414671 56.51619,1.45048 320.78913,-0.47737 320.78913,-0.47737 l 143.00723,-257.2073 104.1564,0.23606 -174.90464,361.60292 h -448.0745 l -210.28,-410.73374 H 168.47643 Z"
+         id="path1762"
+         sodipodi:nodetypes="csscccccccc" />
+      <circle
+         style="fill:#ffffff;stroke:none;stroke-width:3.42322;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2"
+         id="path1160"
+         cx="615.60736"
+         cy="628.35492"
+         r="50.755287" />
+      <circle
+         style="fill:#ffffff;stroke:none;stroke-width:3.42322;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2"
+         id="circle1162"
+         cx="909.53241"
+         cy="627.18243"
+         r="50.755287" />
+    </g>
+  </g>
+</svg>
