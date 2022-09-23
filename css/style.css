@@ -151,7 +151,7 @@ nav {
     background-color: #fefefe;
     margin-top: 20%;
     padding: 1rem;
-    box-shadow: 2px 2px 50px;
+    box-shadow: 1px 1px 50px #4452647e;
     width: 300px;
     text-align: start;
     line-height: 2em;
@@ -220,4 +220,54 @@ li>.main {
     height: auto;
     width: 100%;
     margin: auto;
+}
+
+/* ------------------------------------BREAK------------------------------------ */
+
+/* ------------------------------------CARROSSEL------------------------------------ */
+
+.carrossel {
+    display: flex;
+    justify-content: center;
+}
+
+.carrossel-produtos {
+    width: 100%;
+    margin: 25px 20px;
+    background-color: #fefefe;
+    height: 220px;
+    padding: .5em;
+}
+
+.carrossel__titulo {
+    padding: 1em 1em 0;
+}
+
+.carrossel__titulo a {
+    text-decoration: none;
+    color: #507196;
+    font-size: 10pt;
+    margin-left: 10px;
+}
+
+.produtos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.carrossel__item {
+    text-align: center;
+}
+
+.carrossel__img {
+    border-radius: 50%;
+}
+
+.carrossel__nome {
+    font-size: 11pt;
+    font-weight: 700;
+    background: #fefefe;
+    margin-top: -30px;
 }
