@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: #EAEDED;
     font-size: 13px;
 }
 
@@ -151,7 +152,7 @@ nav {
     background-color: #fefefe;
     margin-top: 20%;
     padding: 1rem;
-    box-shadow: 1px 1px 50px #4452647e;
+
     width: 300px;
     text-align: start;
     line-height: 2em;
@@ -210,7 +211,7 @@ li>.main {
     background-color: #fefefe;
     margin-top: 60px;
     padding: 1rem;
-    box-shadow: 2px 2px 50px;
+
     width: 300px;
     text-align: start;
     line-height: 2em;
@@ -235,8 +236,9 @@ li>.main {
     width: 100%;
     margin: 25px 20px;
     background-color: #fefefe;
-    height: 220px;
+    height: 260px;
     padding: .5em;
+    position: relative;
 }
 
 .carrossel__titulo {
@@ -270,4 +272,24 @@ li>.main {
     font-weight: 700;
     background: #fefefe;
     margin-top: -30px;
+}
+
+.fa-chevron-left {
+    font-size: 20pt;
+    background-color: #fefefe9c;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    padding: 1em .5em;
+    border: none;
+}
+
+.fa-chevron-right {
+    font-size: 20pt;
+    background-color: #fefefe9c;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    padding: 1em .5em;
+    border: none;
 }
