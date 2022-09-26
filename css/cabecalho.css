@@ -1,0 +1,126 @@
+header {
+    background-color: #232F3E;
+    color: #fefefe;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: .3rem 0;
+}
+
+.pesquisa {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.pesquisa>select {
+    padding: .7em;
+    background-color: #DADADA;
+    margin-right: -6px;
+    height: 100%;
+}
+
+.pesquisa__barra {
+    outline: none;
+    width: 500px;
+    height: 100%;
+}
+
+.lupa {
+    font-size: 16px;
+    background-color: #F3A847;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .7em .7em .8rem;
+    margin-left: -5px;
+}
+
+.login__link {
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.login__select-custom>select {
+    border: none;
+    background-color: #232F3E;
+    color: #fefefe;
+    margin-left: -5px;
+}
+
+.fa-location-dot {
+    font-size: 16px;
+}
+
+.fa-magnifying-glass {
+    color: #131921;
+}
+
+.carrinho {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.carrinho__img {
+    height: 28px;
+    position: absolute;
+    left: -30px;
+}
+
+.numero-carrinho {
+    position: relative
+}
+
+.numero-carrinho>p {
+    position: absolute;
+    color: #F08804;
+    font-size: 16pt;
+    right: 70px;
+    bottom: -5px;
+}
+
+.texto-carrinho {
+    position: relative;
+}
+
+.texto-carrinho>p {
+    position: absolute;
+    font-weight: 800;
+    left: -26px;
+}
+
+nav {
+    background-color: #2e4157;
+    color: #fefefe;
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+}
+
+.navegacao {
+    margin-right: 20px;
+}
+
+.fa-bars {
+    font-size: 20px;
+}
+
+.todos {
+    margin-left: -5px;
+}
+
+.prime>select {
+    outline: none;
+    background-color: #2e4157;
+    color: #fefefe;
+    border: solid #2e4157;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.senhor-dos-aneis {
+    margin-left: 130px;
+}
