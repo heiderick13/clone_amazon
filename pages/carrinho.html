@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seu Carrinho</title>
-    <!-- <link rel="stylesheet" href="../libs/bs/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../libs/bs/bootstrap.min.css">
     <link rel="stylesheet" href="../css/default.css">
     <link rel="stylesheet" href="../css/cabecalho.css">
     <link rel="stylesheet" href="../css/carrinho.css">
@@ -15,24 +15,47 @@
 <body>
 
     <section class="itens-carrinho">
-        <h1 class="titulo__carrinho"></h1>
-        <div class="item">
-            <h3 class="nome__item"></h3>
-            <a href=""></a>
-            <p></p>
-            <input type="checkbox" name="" id="">
-            <p></p>
-            <select name="" id=""></select><a href=""></a><a href=""></a>
-            <h2></h2>
+        <div class="row">
+            <div class="col-lg-8 bg-pad">
+                <h1 class="titulo__carrinho border-bottom">Carrinho de compras</h1>
+                <div class="item border-bottom">
+                    <img class="left" src="../img/default-placeholder.png" height="180" alt="">
+                    <h3 class="nome__item">Smart TV LED 32" HD</h3>
+                    <p>Entregue</p>
+                    <p>Elegível para frete grátis</p>
+                    <input type="checkbox" name="" id="">
+                    <p>Este pedido é para presente</p>
+                    <select name="" id="">
+                        <option value="1">Qtd: 1</option>
+                    </select>
+                    <a href="">| Excluir |</a>
+                    <a href="">Salvar para mais tarde</a>
+                    <h2></h2>
+                </div>
+            </div>
+            <div class="col-lg-3 bg-pad side-card">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, vitae enim. Quos sit eum</p>
+                <p class="preco">Subtotal (2 itens): R$ XXX,XX</p>
+                <button>Fazer pedido</button>
+            </div>
         </div>
-        <div class="item">
-            <h3 class="nome__item"></h3>
-            <a href=""></a>
-            <p></p>
-            <input type="checkbox" name="" id="">
-            <p></p>
-            <select name="" id=""></select><a href=""></a><a href=""></a>
-            <h2></h2>
+        <div class="row">
+            <div class="col-lg-8 bg-pad">
+                <div class="item border-bottom">
+                    <img class="left" src="../img/default-placeholder.png" height="180" alt="">
+                    <h3 class="nome__item">Smart TV LED 32" HD</h3>
+                    <p>Entregue</p>
+                    <p>Elegível para frete grátis</p>
+                    <input type="checkbox" name="" id="">
+                    <p>Este pedido é para presente</p>
+                    <select name="" id="">
+                        <option value="1">Qtd: 1</option>
+                    </select>
+                    <a href=""> | Excluir | </a>
+                    <a href="">Salvar para mais tarde</a>
+                    <h2></h2>
+                </div>
+            </div>
         </div>
     </section>
 

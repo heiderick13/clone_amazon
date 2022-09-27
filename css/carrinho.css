@@ -1,0 +1,29 @@
+section {
+    margin: 10px;
+}
+
+.bg-pad {
+    background-color: #fefefe;
+    padding: 1.5em 1.5em 0;
+    margin: 5px;
+}
+
+.left {
+    float: left;
+    margin-right: 15px;
+}
+
+.border-bottom {
+    border-bottom: .5px solid black;
+}
+
+.preco,
+.recomendacao {
+    font-size: 16pt;
+}
+
+.side-card {
+    text-align: center;
+    line-height: 1.5;
+    height: 60%;
+}
