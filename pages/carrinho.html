@@ -14,17 +14,19 @@
 
 <body>
 
-    <section class="itens-carrinho">
+    <section class="container-fluid m-4 itens-carrinho">
         <div class="row">
-            <div class="col-lg-8 bg-pad">
-                <h1 class="titulo__carrinho border-bottom">Carrinho de compras</h1>
-                <div class="item border-bottom">
-                    <img class="left" src="../img/default-placeholder.png" height="180" alt="">
+            <div class="col-lg-8 bg-w p-3 m-2">
+                <h1 class="titulo__carrinho">Carrinho de compras</h1>
+                <div class="item">
+                    <img class="float-left mr-3" src="../img/default-placeholder.png" height="180" alt="">
                     <h3 class="nome__item">Smart TV LED 32" HD</h3>
                     <p>Entregue</p>
                     <p>Elegível para frete grátis</p>
-                    <input type="checkbox" name="" id="">
-                    <p>Este pedido é para presente</p>
+                    <div class="flex">
+                        <input type="checkbox" class="check__item mr-2" name="" id="">
+                        <p>Este pedido é para presente</p>
+                    </div>
                     <select name="" id="">
                         <option value="1">Qtd: 1</option>
                     </select>
@@ -33,28 +35,38 @@
                     <h2></h2>
                 </div>
             </div>
-            <div class="col-lg-3 bg-pad side-card">
+            <div class="col-lg-3 bg-w p-3 ml-2 side-card">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, vitae enim. Quos sit eum</p>
                 <p class="preco">Subtotal (2 itens): R$ XXX,XX</p>
-                <button>Fazer pedido</button>
+                <button class="btn btn-warning mt-2 mb-3">Fazer pedido</button>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 bg-pad">
-                <div class="item border-bottom">
-                    <img class="left" src="../img/default-placeholder.png" height="180" alt="">
+            <div class="col-lg-8 bg-w p-3 m-2 pb-2">
+                <div class="item">
+                    <img class="float-left mr-3" src="../img/default-placeholder.png" height="180" alt="">
                     <h3 class="nome__item">Smart TV LED 32" HD</h3>
                     <p>Entregue</p>
                     <p>Elegível para frete grátis</p>
-                    <input type="checkbox" name="" id="">
-                    <p>Este pedido é para presente</p>
+                    <div class="flex">
+                        <input type="checkbox" class="check__item mr-2" name="" id="">
+                        <p>Este pedido é para presente</p>
+                    </div>
                     <select name="" id="">
                         <option value="1">Qtd: 1</option>
                     </select>
                     <a href=""> | Excluir | </a>
                     <a href="">Salvar para mais tarde</a>
-                    <h2></h2>
+                    <p class="subtotal">Subtotal (2 itens): R$ XXX,XX</p>
                 </div>
+            </div>
+            <div class="col-lg-3 bg-w p-3 ml-2 lateral">
+                <img src="" alt="" class="img__lateral">
+                <p class="titulo__lateral">Clientes que compraram itens em seu carrinho também compraram</p>
+                <a href="">Antena digital HDTV</a>
+                <p></p>
+                <p></p>
+                <button></button>
             </div>
         </div>
     </section>
