@@ -11,6 +11,10 @@ section {
     background-color: #fefefe;
 }
 
+.border-b {
+    border-bottom: .5px solid rgba(146, 146, 146, 0.377);
+}
+
 .preco,
 .recomendacao {
     font-size: 16pt;
