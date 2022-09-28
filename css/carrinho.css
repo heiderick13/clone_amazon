@@ -33,6 +33,12 @@ section {
 
 .item {
     position: relative;
+    max-height: 200px;
+     !important
+}
+
+.mb-negative {
+    margin-bottom: 20px;
 }
 
 .subtotal {
@@ -40,4 +46,13 @@ section {
     left: 79%;
     bottom: 0;
     font-size: 10pt;
+}
+
+.titulo__lateral {
+    font-size: 11pt;
+    font-weight: 600;
+}
+
+.descricao__lateral {
+    line-height: 1;
 }
