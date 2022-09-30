@@ -7,6 +7,11 @@ section {
     align-items: baseline;
 }
 
+.float-left {
+    float: left;
+    margin-right: 1em;
+}
+
 .bg-w {
     background-color: #fefefe;
 }
@@ -23,29 +28,22 @@ section {
 .side-card {
     text-align: center;
     line-height: 1.5;
-    height: 60%;
+    height: 30%;
+    margin-top: 8px;
 }
 
 .lateral {
-    margin-top: -80px;
-    margin-bottom: -80px;
+    margin-top: 20px;
 }
 
 .item {
     position: relative;
-    max-height: 200px;
-     !important
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .mb-negative {
     margin-bottom: 20px;
-}
-
-.subtotal {
-    position: absolute;
-    left: 79%;
-    bottom: 0;
-    font-size: 10pt;
 }
 
 .titulo__lateral {
