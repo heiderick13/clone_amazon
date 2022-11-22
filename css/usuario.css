@@ -1,130 +1,129 @@
 body {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
 }
 
 .login {
-    max-width: 350px;
-    margin: auto;
+  max-width: 350px;
+  margin: auto;
 }
 
 .login__logo {
-    margin: 15px 0 15px;
+  margin: 15px 0 15px;
 }
 
 .login__card {
-    border: solid .5px rgb(219, 214, 214);
-    border-radius: 3px;
-    padding: 1.5rem;
-    text-align: left;
+  border: solid 0.5px rgb(219, 214, 214);
+  border-radius: 3px;
+  padding: 1.5rem;
+  text-align: left;
 }
 
 .login__titulo {
-    font-weight: 500;
-    padding-bottom: 1rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
 }
 
 .login__opcoes {
-    font-size: 10pt;
-    font-weight: 750;
+  font-size: 10pt;
+  font-weight: 750;
 }
 
 .txt {
-    width: 100%;
-    padding: .5rem;
-    border: solid .5px rgb(155, 150, 150);
-    border-radius: 3px;
-    margin-bottom: 15px;
+  width: 100%;
+  padding: 0.5rem;
+  border: solid 0.5px rgb(155, 150, 150);
+  border-radius: 3px;
+  margin-bottom: 15px;
 }
 
 .btn {
-    background-color: #f0c14b;
-    width: 100%;
-    padding: .6rem;
-    border: solid .5px rgb(155, 150, 150);
-    border-radius: 3px;
-    border-color: #a88734 #9c7e31 #846a29;
-    margin-bottom: 15px;
-    cursor: pointer;
+  background-color: #f0c14b;
+  width: 100%;
+  padding: 0.6rem;
+  border: solid 0.5px rgb(155, 150, 150);
+  border-radius: 3px;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #ebb42c;
+  background-color: #ebb42c;
 }
 
 .login__decricao {
-    font-size: 9pt;
-    line-height: 1.5;
-    margin-bottom: 1rem;
+  font-size: 9pt;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
-.login__decricao>a {
-    text-decoration: none;
+.login__decricao > a {
+  text-decoration: none;
 }
 
 .precisa-de-ajuda {
-    list-style: none;
-    font-size: 10pt;
+  list-style: none;
+  font-size: 10pt;
 }
 
 .precisa-de-ajuda a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* ---------------------------------------------------------------- */
 
 .novo-usuario {
-    width: 350px;
-    margin: auto;
-    padding: 2rem 0 2rem;
-    position: relative;
+  width: 350px;
+  margin: auto;
+  padding: 2rem 0 2rem;
+  position: relative;
 }
 
 .usuario__linha {
-    position: absolute;
-    height: 1px;
-    background-color: #8b8b8bd7;
-    width: 100%;
-    top: 32%;
-    z-index: -1;
+  position: absolute;
+  height: 1px;
+  background-color: #8b8b8bd7;
+  width: 100%;
+  top: 29%;
+  z-index: -1;
 }
 
-.novo-usuario>p {
-    display: inline-block;
-    background: #fefe;
-    font-size: 10pt;
-    color: #6b6969;
-    padding: 0 .5rem .5rem;
+.novo-usuario > p {
+  display: inline-block;
+  background: #fefe;
+  font-size: 10pt;
+  color: #6b6969;
+  padding: 0 0.5rem 0.5rem;
 }
 
 .btn-novo-usuario {
-    width: 100%;
-    padding: .5rem;
-    border-radius: 3px;
-    border: solid .5px rgb(155, 150, 150);
-    ;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: solid 0.5px rgb(155, 150, 150);
 }
 
 /* ---------------------------------------------------------------- */
 
 footer {
-    background: linear-gradient(to bottom, #f5f2f2, #fff);
-    padding: 1rem;
+  background: linear-gradient(to bottom, #f5f2f2, #fff);
+  padding: 1rem;
 }
 
 .links__item {
-    list-style: none;
-    display: inline-block;
-    font-size: 9pt;
-    padding-bottom: 1rem;
+  list-style: none;
+  display: inline-block;
+  font-size: 9pt;
+  padding-bottom: 1rem;
 }
 
-.links__item>a {
-    padding-top: 1rem;
-    text-decoration: none;
+.links__item > a {
+  padding-top: 1rem;
+  text-decoration: none;
 }
 
 footer p {
-    font-size: 8pt;
+  font-size: 8pt;
 }
