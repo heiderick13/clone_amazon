@@ -1,65 +1,73 @@
 /* ----------------------------------------PRINCIPAL------------------------------------------ */
 
 .principal {
-    background-image: url(../img/bg_amazon.jpg);
-    background-position: top;
-    background-size: cover;
-    height: 90vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(234, 237, 237, 0),
+      rgba(234, 237, 237, 0),
+      rgb(234, 237, 237, 0.1),
+      rgb(234, 237, 237, 0.8),
+      rgb(234, 237, 237, 1)
+    ),
+    url(../img/bg_amazon.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 90vh;
 }
 
 .principal__lista {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .principal__item {
-    display: inline-block;
-    background-color: #fefefe;
-    margin-top: 20%;
-    padding: 1rem;
+  display: inline-block;
+  background-color: #fefefe;
+  margin-top: 20%;
+  padding: 1rem;
 
-    width: 300px;
-    text-align: start;
-    line-height: 2em;
+  width: 300px;
+  text-align: start;
+  line-height: 2em;
 }
 
 .principal__item-titulo {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .principal__item-foto {
-    height: 120px;
-    margin: 6px;
-    border: .5px solid;
+  height: 120px;
+  margin: 6px;
+  border: 0.5px solid;
 }
 
-.oferta>.principal__item-foto {
-    height: auto;
-    width: 100%;
-    margin: auto;
+.oferta > .principal__item-foto {
+  height: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .destaque {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-li>.main {
-    width: 100%;
-    margin: auto;
+li > .main {
+  width: 100%;
+  margin: auto;
 }
 
-.destaque>.sec {
-    height: 70px;
+.destaque > .sec {
+  height: 70px;
 }
 
-.destaque>p {
-    margin-bottom: 15px;
+.destaque > p {
+  margin-bottom: 15px;
 }
 
-.internacionais>.main {
-    width: 100%;
-    margin: auto;
+.internacionais > .main {
+  width: 100%;
+  margin: auto;
 }
 
 /* ------------------------------------BREAK------------------------------------ */
@@ -67,25 +75,25 @@ li>.main {
 /* ------------------------------------SECUNDARIA------------------------------------ */
 
 .secundaria__lista {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .secundaria__item {
-    display: inline-block;
-    background-color: #fefefe;
-    margin-top: 60px;
-    padding: 1rem;
+  display: inline-block;
+  background-color: #fefefe;
+  margin-top: 60px;
+  padding: 1rem;
 
-    width: 300px;
-    text-align: start;
-    line-height: 2em;
+  width: 300px;
+  text-align: start;
+  line-height: 2em;
 }
 
-.produto>.principal__item-foto {
-    height: auto;
-    width: 100%;
-    margin: auto;
+.produto > .principal__item-foto {
+  height: auto;
+  width: 100%;
+  margin: auto;
 }
 
 /* ------------------------------------BREAK------------------------------------ */
@@ -93,68 +101,68 @@ li>.main {
 /* ------------------------------------CARROSSEL------------------------------------ */
 
 .carrossel {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .carrossel-produtos {
-    width: 100%;
-    margin: 25px 20px;
-    background-color: #fefefe;
-    height: 260px;
-    padding: .5em;
-    position: relative;
+  width: 100%;
+  margin: 25px 20px;
+  background-color: #fefefe;
+  height: 260px;
+  padding: 0.5em;
+  position: relative;
 }
 
 .carrossel__titulo {
-    padding: 1em 1em 0;
+  padding: 1em 1em 0;
 }
 
 .carrossel__titulo a {
-    text-decoration: none;
-    color: #507196;
-    font-size: 10pt;
-    margin-left: 10px;
+  text-decoration: none;
+  color: #507196;
+  font-size: 10pt;
+  margin-left: 10px;
 }
 
 .produtos {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
 }
 
 .carrossel__item {
-    text-align: center;
+  text-align: center;
 }
 
 .carrossel__img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .carrossel__nome {
-    font-size: 11pt;
-    font-weight: 700;
-    background: #fefefe;
-    margin-top: -30px;
+  font-size: 11pt;
+  font-weight: 700;
+  background: #fefefe;
+  margin-top: -30px;
 }
 
 .fa-chevron-left {
-    font-size: 20pt;
-    background-color: #fefefe9c;
-    position: absolute;
-    top: 40%;
-    left: 0;
-    padding: 1em .5em;
-    border: none;
+  font-size: 20pt;
+  background-color: #fefefe9c;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  padding: 1em 0.5em;
+  border: none;
 }
 
 .fa-chevron-right {
-    font-size: 20pt;
-    background-color: #fefefe9c;
-    position: absolute;
-    top: 40%;
-    right: 0;
-    padding: 1em .5em;
-    border: none;
+  font-size: 20pt;
+  background-color: #fefefe9c;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  padding: 1em 0.5em;
+  border: none;
 }
